@@ -37,7 +37,7 @@ export default function AppNavigator() {
           <Stack.Screen name="Order" component={OrderScreen} />
           <Stack.Screen name="Reward" component={RewardScreen} />
         </Stack.Navigator>
-        
+
         <HoveringBottomNav currentRoute={currentRoute} />
       </View>
     </NavigationContainer>
